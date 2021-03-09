@@ -244,7 +244,7 @@ st.plotly_chart(fig,use_container_width=True)
 
 st.header('Network analysis')
 
-period = st.slider("Select years",min_value=2016,max_value=2020,value=(2018,2020),step=1)
+period = st.slider("Select years",min_value=2016,max_value=2020,value=(2019,2020),step=1)
 
 bankdeal = bankdeal[(bankdeal['Year']>=period[0])&(bankdeal['Year']<=period[1])]
 
